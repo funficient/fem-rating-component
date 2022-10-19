@@ -12,9 +12,9 @@ submitButton.addEventListener("click", () => {
     
 })
 
-rateSelected.forEach((rate) => {
-    rate.addEventListener("click"), () => {
-        let counter = rate.innerHTML;
+rateSelected.forEach((rateSelected) => {
+    rateSelected.addEventListener("click"), () => {
+        let counter = rateSelected.innerHTML;
         rating.innerHTML = counter;
     }
 })
