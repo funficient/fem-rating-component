@@ -3,7 +3,6 @@
 /*----- Basic setup and styling -----*/
 :root { 
     --color-accent-orange: hsl(25, 97%, 53%);
-
     --color-neutral-white: hsl(0, 0%, 100%);
     --color-neutral-light-grey: hsl(217, 12%, 63%);
     --color-neutral-gray:hsl(216, 12%, 54%);
@@ -116,7 +115,7 @@ h1 {
 
   }
   
-  p {
+p {
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.3rem;
@@ -126,7 +125,7 @@ h1 {
 
   /*----- Buttons -----*/
 
-  .submit {
+.submit {
     background-color: var(--color-accent-orange);
     cursor: pointer;
     text-decoration: none;
@@ -143,9 +142,10 @@ h1 {
   }
 
 .submit:hover {
- background-color: var(--color-neutral-white);
- color: var(--color-accent-orange);
-} 
+  background-color: var(--color-neutral-white);
+  color: var(--color-accent-orange);
+  } 
+
 
   /*----- Specific component styling -----*/
 
@@ -193,6 +193,7 @@ ul {
 .vote-response {
   text-align: center;
 }
+
 .vote-response img {
   display: block;
   margin: 1rem auto 2rem;
@@ -216,13 +217,14 @@ footer {
  bottom: 0;
 }
 
-  .attribution {
-    color: var(--color-neutral-blue);
+  .attribution p {
+    color: var(--color-neutral-gray);
     
   }
 
   .attribution a {
-    color: var(--color-primary-blue);
+    color: var(--color-accent-orange);
+    opacity: 60%;
   }
   
 
