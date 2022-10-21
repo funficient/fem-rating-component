@@ -44,7 +44,6 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Vanilla JavaScript
-- Mobile-first workflow
 
 ### What I learned
 
@@ -81,3 +80,5 @@ I also want to figure out why the svg used in the top cuts off some of the corne
 A super big thank you to Matt Studdert for responding so quick and so helpful when I asked for help. It is a rare community that make newcomers feel so welcome and supported.
 
 Thank you.
+
+Thank you to @AdrianoEscarabote who helped improve my code.

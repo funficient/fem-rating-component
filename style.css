@@ -149,13 +149,16 @@ p {
 
   /*----- Specific component styling -----*/
 
-  .submit-vote img {
-    display: inline-block;
-    text-align: center;
+  .circle {
+    width: 3rem;
+    height: 3rem;
     background-color: hsl(213, 19%, 21%);
     padding: 1rem;
     border-radius: 50%;
-    /*--figure out how to center the image so that the bottom doesn't get cut off --*/
+  }
+
+  .submit-vote img {
+    text-align: center;
   }
 
 ul {
